@@ -167,6 +167,136 @@
     font-weight: 900;
 }
 
+.hover-menu-container {
+    visibility: hidden;
+    opacity: 0;
+    z-index: 101; 
+}
+
+.hover-menu-container>div {
+    background-color: #fff;
+    position: absolute;
+    top: 87px;
+    left: 0;
+    width: 1160px;
+    height: 48px;
+    padding: 0 20px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    border-bottom: 1px solid #e2e0e0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hover-menu-container>div>div:first-child {
+    padding-right: 20px;
+    color: #606060;
+}
+
+.hover-menu-container>div>div>a {
+    color: #2c4152;
+    display: inline-block;
+    line-height: 48px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.hover-menu-container>ul>li>a {
+    line-height: 48px;
+    display: inline-block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.categories-dropdown,.brands-dropdown {
+    background-color: #f8f8f8;;
+    height: 48px;
+    border-right: 3px solid #fff;
+    display: flex;
+    align-items: center;
+}
+
+.categories-dropdown:hover,.brands-dropdown:hover {
+    background-color: #ececec;
+    font-weight: 900;
+}
+
+.content-box {
+    display: flex;
+    width: 1160px;
+    padding: 0 20px;
+    height: 460px;
+    position: absolute;
+    background-color: #fff;
+    top: 49px;
+    left: 0;
+    border-radius: 0 0 8px 8px;
+}
+  
+.content-box>div {
+    width: 300px;
+}
+
+.content-box>div>ul {
+    list-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 13px 0;
+    font-size: 14px;
+}
+
+.content-box>div>ul>a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.content-box>div>ul>li:first-child {
+    margin-top: 5px;
+}
+
+.content-box>div>ul>li {
+    font-weight: 500;
+    color: #2c4152;
+    text-transform: none;
+}
+
+.content-box>div>ul>li>a {
+    color: #2c4152;
+    text-decoration: none;
+}
+
+.content-box>div>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+.content-box>div>ul>a:hover {
+    color: #111;
+}
+
+.brand-content { 
+    visibility: hidden;
+}
+
+.content-box .new-red {
+    font-size: 8px;
+    color: white;
+    border: 1px solid #de130e;
+    background-color: #de130e;
+    padding: 1px 4px;
+    border-radius: 8px;
+    font-weight: 400;
+}
+
+.content-box .hot-yellow {
+    font-size: 8px;
+    color: black;
+    border: 1px solid #ffc136;
+    background-color: #ffc136;
+    padding: 1px 4px;
+    border-radius: 8px;
+    font-weight: 400;
+}
+
 /* user actions */
 
 .user-action {
