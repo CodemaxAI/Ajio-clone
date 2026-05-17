@@ -11,8 +11,24 @@
     <link rel="icon" href="assets/images/favicon/favicon.ico" type="image/x-icon">
     <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
 </head>
 <body>
+
+    <div class="main-header-overlay"></div>
+    <div id="header"></div>
+
+    <!-- components load -->
+
+    <script>
+        const loadComponent = (id, file) => {
+            fetch(file)
+            .then(res => res.text())
+            .then(html => document.getElementById(id).innerHTML = html);
+        };
+
+        loadComponent("header", "components/header.html");
+    </script>
     
 </body>
 </html>
