@@ -1,0 +1,179 @@
+/* main container */
+
+.main-container {
+    padding-top: 91px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+/* banner component */
+
+.main-contents {
+    margin-top: 40px;
+}
+
+.carousel-content {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; 
+}
+
+.carousel-slides img {
+    height: 481px;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.bank-offer img {
+    height: 131px;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.offer-banner img{
+    width: 100%;
+    height: 486px;
+    object-fit: cover;
+}
+
+.carousel-head img{
+    width: 100%;
+    height: 103px;
+    object-fit: cover;
+}
+
+.style-offer img {
+    height: 485px;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.luxe-banner img{
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+
+.banner-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-list img:first-child {
+    width: 100%;
+    height: 115px;
+    object-fit: cover;
+}
+
+.banner-list img:last-child {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+/* carousel indicator */
+
+.carousel-indicator-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.carousel-indicator {
+    width: 25px;
+    height: 7px;
+    margin: 0 5px;
+    background-color: #c9c9c9;
+    border-radius: 25px;
+    display: inline-block;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.carousel-indicator.active {
+    background-color: #333;
+}
+
+
+/* item card */
+
+.item-card {
+    margin-top: 40px;
+}
+
+.item-card-head img {
+    width: 100%;
+    height: 186px;
+    object-fit: cover;
+    display: block;
+}
+
+.item-card-content {
+    width: 100%;
+    position: relative;
+}
+
+.item-cards {
+    display: flex;
+    gap: 0px;
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.item-cards::-webkit-scrollbar {
+    display: none; 
+}
+
+.item-cards img {
+    width: calc(25% - 0px);
+    min-width: calc(25% - 0px);
+    height: 495px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.item-card-nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.item-card-nav-btn i {
+    font-size: 32px;
+}
+
+.item-card-nav-btn:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.prev-btn {
+    left: 18px;
+}
+
+.next-btn {
+    right: 18px;
+}
+
+.item-cards-offer img {
+    height: 552px;
+}
