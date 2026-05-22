@@ -1,0 +1,83 @@
+.footer-container {
+    background-color: #2C4152;
+    position: relative;
+    min-width: 1263px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* footer top */
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    color: #CCCCCC;
+    border-bottom: 1px solid #ccc;
+    padding: 40px 0;
+    margin-bottom: 40px;
+    width: 1200px;
+    margin: auto;
+}
+
+.footer-top-column {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.footer-column-head {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+  
+.footer-column-items {
+    display: flex;
+    flex-direction: column;
+}
+  
+.footer-column-items a {
+    text-decoration: none;
+    color: #bfc8cb;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-column-items a:hover{
+    text-decoration: underline;
+}
+
+/* footer bottom */
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0;
+    width: 1200px;
+    margin: auto;
+}
+
+.pay-title {
+    font-size: 18px;
+    color: #ccc
+}
+
+.pay-logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.fb-images {
+    margin: 15px;
+}
+
+.fb-images img {
+    width: 100%;
+}
+
+.pay-mode img {
+    height: 30px;
+}
+
+.ssl-img {
+    height: 40px;
+}
