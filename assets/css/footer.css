@@ -5,6 +5,30 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* footer content */
+
+.footer-content {
+    width: 1200px;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.footer-content h2 {
+    font-size: 18px;
+    color: #CCC;
+    line-height: 1.4;
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: #bfc8cb;
+    margin-bottom: 8px;
+}
+
+.footer-content strong {
+    color: #CCC;
+}
+
 /* footer top */
 
 .footer-top {
