@@ -29,6 +29,54 @@
     color: #CCC;
 }
 
+/* footer popular brands and footer popular searches */
+
+.footer-popular-brands, .footer-popular-searches {
+    width: 1200px;
+    margin: auto;
+}
+
+.footer-popular-brands {
+    padding: 0px 0px 20px 0px;
+}
+
+.footer-popular-searches {
+    padding: 0px 0px 40px 0px;
+}
+
+.footer-popular-brands h2, .footer-popular-searches h2 {
+    font-size: 18px;
+    color: #CCC;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.footer-popular-brands ul, .footer-popular-searches ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-popular-brands li, .footer-popular-searches li {
+    list-style: none;
+}
+
+.footer-popular-brands a, .footer-popular-searches a {
+    outline: none;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    font-size: 14px;
+    color: #bfc8cb;
+}
+
 /* footer top */
 
 .footer-top {
